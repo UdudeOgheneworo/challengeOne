@@ -16,6 +16,7 @@ body {
   font-size: 15px;
   font-family: "Outfit", sans-serif;
   text-align: center;
+  flex-direction: column;
 }
 .card {
   background-color: hsl(0, 0%, 100%);
@@ -39,4 +40,10 @@ p {
   margin: 10px 0;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+.attribution {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 0.6rem;
 }
